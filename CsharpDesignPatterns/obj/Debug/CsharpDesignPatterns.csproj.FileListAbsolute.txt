@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\bin\Debug\CsharpDesignPatterns.exe.config
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\bin\Debug\CsharpDesignPatterns.exe
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\bin\Debug\CsharpDesignPatterns.pdb
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\obj\Debug\CsharpDesignPatterns.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\obj\Debug\CsharpDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\obj\Debug\CsharpDesignPatterns.exe
+C:\Users\USER\Desktop\c# design pattern\CsharpDesignPatterns\CsharpDesignPatterns\obj\Debug\CsharpDesignPatterns.pdb
