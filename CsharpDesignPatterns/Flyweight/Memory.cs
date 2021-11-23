@@ -8,17 +8,19 @@ namespace CsharpDesignPatterns.Flyweight
 {
     public class Memory
     {
-        // in dict it saves every charactor and it's property
+        // the memory class will save 26 lower and upper case characters
+        // notice: "and there current font style!!"
         private Dictionary<char, FontProperty> _items = new Dictionary<char, FontProperty>();
 
         public FontProperty LookUp(char letter) 
         {
             if (!_items.ContainsKey(letter)) 
             {
-                // font style will set default
+                // if not exist yet then add to dictionary
                 _items.Add(letter, new FontProperty(letter));
             }
 
+            // or add it to the dictionary
             return _items[letter];
         }
 

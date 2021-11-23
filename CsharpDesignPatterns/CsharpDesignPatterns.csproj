@@ -112,7 +112,14 @@
     <Compile Include="Proxy\ProxyServer.cs" />
     <Compile Include="Proxy\RealTimeTweets.cs" />
     <Compile Include="Proxy\TestProxy.cs" />
+    <Compile Include="Repository\Contact.cs" />
+    <Compile Include="Repository\ContactUI.cs" />
+    <Compile Include="Repository\Friend.cs" />
+    <Compile Include="Repository\InMemoryRepo.cs" />
+    <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\TestRepository.cs" />
+    <Compile Include="Repository\TextFileRepo.cs" />
+    <Compile Include="Repository\Work.cs" />
     <Compile Include="Singleton\Logger.cs" />
     <Compile Include="Singleton\TestSingleton.cs" />
     <Compile Include="State\IMeetingState.cs" />

@@ -8,6 +8,7 @@ namespace CsharpDesignPatterns.Flyweight
 {
     public class Document
     {
+        // a document will store the memory instance and list of characters
         private Memory _memory = new Memory();
         private List<FontProperty> _letters = new List<FontProperty>();
 
@@ -15,6 +16,21 @@ namespace CsharpDesignPatterns.Flyweight
         {
             FontProperty fontProp = _memory.LookUp(letter);
             _letters.Add(fontProp);
+        }
+
+        public void Process() 
+        {
+            // prints out the string
+            foreach (var c in _letters)
+            {
+                c.Display();
+            }
+        }
+
+        public void Repost() 
+        {
+            Console.WriteLine("Total items: " +
+                $"{_memory.TotalObjectsMade()}");
         }
     }
 }
